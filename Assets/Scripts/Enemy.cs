@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
 	#region Configuration
 
 	public float MovementSpeed = 0.2f;
+	public float Health = 100f;
 
 	#endregion
 
@@ -16,6 +17,18 @@ public class Enemy : MonoBehaviour
 	void Start () 
 	{
 		_attackTarget = Manager.GetInstance<LevelManager>().PlayerDefendedTargets.First();
+	}
+
+	#endregion
+
+	#region Operations
+
+	public void Impact(float damage)
+	{
+		Health -= damage;
+
+		if (Health < 0)
+			Die ();
 	}
 
 	#endregion
@@ -54,6 +67,12 @@ public class Enemy : MonoBehaviour
 	}
 
 	#endregion
+
+	private void Die()
+	{
+		_attackTarget = null;
+		GameObject.Destroy (this.gameObject);
+	}
 
 	#region Data
 

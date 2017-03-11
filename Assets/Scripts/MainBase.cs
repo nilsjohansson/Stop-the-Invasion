@@ -14,8 +14,11 @@ public class MainBase : MonoBehaviour, ITarget
 {
 	#region Properties
 
+	public float CannonBallForce = 100f;
 	public GameObject Cannon;
 	public GameObject CannonBall;
+	public GameObject cbTrajectoryBase;
+	public GameObject cbTrajectoryTarget;
 
 	#endregion
 
@@ -51,11 +54,7 @@ public class MainBase : MonoBehaviour, ITarget
 
 				var newRotation = new Quaternion();
 				newRotation.SetLookRotation(lookDirection, Vector3.up);
-//				var euler = newRotation.eulerAngles;
-//				euler.z = 0f;
-//				euler.x = 0f;
-//				euler.y -= 90;
-//				newRotation.eulerAngles = euler;
+
 				var quaternion = new Quaternion {
 					eulerAngles = new Vector3(0,-90,0)
 				};
@@ -64,9 +63,8 @@ public class MainBase : MonoBehaviour, ITarget
 				Cannon.transform.rotation = newRotation;
 
 
-
-				var cannonBall = Instantiate(CannonBall, Cannon.transform.position, Quaternion.identity);
-				//cannonBall.GetComponent<Rigidbody>().AddForce(Cannon.transform.forward
+				var cannonBall = Instantiate(CannonBall, cbTrajectoryTarget.WPos(), Quaternion.identity);
+				cannonBall.GetComponent<Rigidbody> ().AddForce((cbTrajectoryTarget.WPos() - cbTrajectoryBase.WPos()) * CannonBallForce);
 			}
 		}
 	}
@@ -83,4 +81,12 @@ public class MainBase : MonoBehaviour, ITarget
 //	}
 
 	#endregion
+}
+
+public static class GameObjectExtensions
+{
+	public static Vector3 WPos(this GameObject source)
+	{
+		return source.transform.position;
+	}
 }
