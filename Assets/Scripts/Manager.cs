@@ -6,7 +6,7 @@ using System.Collections.Generic;
 /// A Manager is a singleton implementation of a monobehaviour. It provides a GetInstance operation that allows any script to get a reference to the unique instance in this scene. 
 /// Used for modules that has public operations.
 /// </summary>
-public class Manager : MonoBehaviour 
+public class ManagerOld : MonoBehaviour 
 {
 	#region Static construction
 	

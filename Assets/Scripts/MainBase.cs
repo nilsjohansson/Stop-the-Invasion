@@ -16,7 +16,7 @@ public class MainBase : MonoBehaviour, ITarget
 
 	public float CannonBallForce = 100f;
 	public GameObject Cannon;
-	public GameObject CannonBall;
+	public GameObject Ammunition;
 	public GameObject cbTrajectoryBase;
 	public GameObject cbTrajectoryTarget;
 
@@ -59,12 +59,12 @@ public class MainBase : MonoBehaviour, ITarget
 					eulerAngles = new Vector3(0,-90,0)
 				};
 
-				newRotation *=quaternion;
+				newRotation *= quaternion;
 				Cannon.transform.rotation = newRotation;
 
-
-				var cannonBall = Instantiate(CannonBall, cbTrajectoryTarget.WPos(), Quaternion.identity);
+				var cannonBall = Instantiate(Ammunition, cbTrajectoryTarget.WPos(), Quaternion.identity);
 				cannonBall.GetComponent<Rigidbody> ().AddForce((cbTrajectoryTarget.WPos() - cbTrajectoryBase.WPos()) * CannonBallForce);
+				cannonBall.GetComponent<Cannonball>().SetOwner(this.gameObject.GetComponent<MainBaseActor>());
 			}
 		}
 	}

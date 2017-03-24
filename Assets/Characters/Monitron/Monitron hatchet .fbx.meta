@@ -1,0 +1,1190 @@
+fileFormatVersion: 2
+guid: 28f87a9ec8f464191830347b1bddb9bb
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone
+    100002: finger_index_01_L
+    100004: finger_index_01_R
+    100006: finger_middle_01_L
+    100008: finger_middle_01_R
+    100010: foot_L
+    100012: foot_R
+    100014: forearm_L
+    100016: forearm_R
+    100018: hand_L
+    100020: hand_R
+    100022: head
+    100024: heel_02_L
+    100026: heel_02_R
+    100028: heel_L
+    100030: heel_R
+    100032: hips
+    100034: Hold_R
+    100036: Kneetarget_L
+    100038: Kneetarget_R
+    100040: //RootNode
+    100042: Monitron_hatchet
+    100044: Monitron_mesh_Lowres
+    100046: Monitron_rig
+    100048: neck
+    100050: palm_01_L
+    100052: palm_01_R
+    100054: palm_02_L
+    100056: palm_02_R
+    100058: ribs
+    100060: Ribs_Hatchet
+    100062: shin_L
+    100064: shin_R
+    100066: spine
+    100068: thigh_L
+    100070: thigh_R
+    100072: thumb_01_L
+    100074: thumb_01_R
+    100076: thumb_02_L
+    100078: thumb_02_R
+    100080: toe_L
+    100082: toe_R
+    100084: upper_arm_L
+    100086: upper_arm_R
+    400000: Bone
+    400002: finger_index_01_L
+    400004: finger_index_01_R
+    400006: finger_middle_01_L
+    400008: finger_middle_01_R
+    400010: foot_L
+    400012: foot_R
+    400014: forearm_L
+    400016: forearm_R
+    400018: hand_L
+    400020: hand_R
+    400022: head
+    400024: heel_02_L
+    400026: heel_02_R
+    400028: heel_L
+    400030: heel_R
+    400032: hips
+    400034: Hold_R
+    400036: Kneetarget_L
+    400038: Kneetarget_R
+    400040: //RootNode
+    400042: Monitron_hatchet
+    400044: Monitron_mesh_Lowres
+    400046: Monitron_rig
+    400048: neck
+    400050: palm_01_L
+    400052: palm_01_R
+    400054: palm_02_L
+    400056: palm_02_R
+    400058: ribs
+    400060: Ribs_Hatchet
+    400062: shin_L
+    400064: shin_R
+    400066: spine
+    400068: thigh_L
+    400070: thigh_R
+    400072: thumb_01_L
+    400074: thumb_01_R
+    400076: thumb_02_L
+    400078: thumb_02_R
+    400080: toe_L
+    400082: toe_R
+    400084: upper_arm_L
+    400086: upper_arm_R
+    2300000: Monitron_hatchet
+    3300000: Monitron_hatchet
+    4300000: Monitron_mesh_Lowres
+    4300002: Monitron_hatchet
+    7400000: Attack
+    7400002: AttackIdle
+    7400004: Carrying
+    7400006: Idle1
+    7400008: Idle3
+    7400010: PickUp
+    7400012: Unsheath_Hatchet
+    7400014: Walk
+    7400016: AttackStance
+    7400018: Unsheath
+    7400020: HoldingObject
+    9500000: //RootNode
+    13700000: Monitron_mesh_Lowres
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack
+      takeName: Carrying
+      firstFrame: 208
+      lastFrame: 230
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monitron_mesh_Lowres
+        weight: 1
+      - path: Monitron_rig
+        weight: 1
+      - path: Monitron_rig/heel_L
+        weight: 1
+      - path: Monitron_rig/heel_L/foot_L
+        weight: 1
+      - path: Monitron_rig/heel_L/foot_L/heel_02_L
+        weight: 1
+      - path: Monitron_rig/heel_L/Kneetarget_L
+        weight: 1
+      - path: Monitron_rig/heel_L/toe_L
+        weight: 1
+      - path: Monitron_rig/heel_R
+        weight: 1
+      - path: Monitron_rig/heel_R/foot_R
+        weight: 1
+      - path: Monitron_rig/heel_R/foot_R/heel_02_R
+        weight: 1
+      - path: Monitron_rig/heel_R/Kneetarget_R
+        weight: 1
+      - path: Monitron_rig/heel_R/toe_R
+        weight: 1
+      - path: Monitron_rig/hips
+        weight: 1
+      - path: Monitron_rig/hips/spine
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck/head
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck/head/Bone
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/Ribs_Hatchet
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_01_L/finger_index_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_02_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_02_L/finger_middle_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/Hold_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_01_R/finger_index_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_02_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_02_R/finger_middle_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/thumb_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: Monitron_rig/hips/thigh_L
+        weight: 1
+      - path: Monitron_rig/hips/thigh_L/shin_L
+        weight: 1
+      - path: Monitron_rig/hips/thigh_R
+        weight: 1
+      - path: Monitron_rig/hips/thigh_R/shin_R
+        weight: 1
+      - path: Monitron_rig/Monitron_hatchet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AttackStance
+      takeName: Carrying
+      firstFrame: 188
+      lastFrame: 207
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monitron_mesh_Lowres
+        weight: 1
+      - path: Monitron_rig
+        weight: 1
+      - path: Monitron_rig/heel_L
+        weight: 1
+      - path: Monitron_rig/heel_L/foot_L
+        weight: 1
+      - path: Monitron_rig/heel_L/foot_L/heel_02_L
+        weight: 1
+      - path: Monitron_rig/heel_L/Kneetarget_L
+        weight: 1
+      - path: Monitron_rig/heel_L/toe_L
+        weight: 1
+      - path: Monitron_rig/heel_R
+        weight: 1
+      - path: Monitron_rig/heel_R/foot_R
+        weight: 1
+      - path: Monitron_rig/heel_R/foot_R/heel_02_R
+        weight: 1
+      - path: Monitron_rig/heel_R/Kneetarget_R
+        weight: 1
+      - path: Monitron_rig/heel_R/toe_R
+        weight: 1
+      - path: Monitron_rig/hips
+        weight: 1
+      - path: Monitron_rig/hips/spine
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck/head
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck/head/Bone
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/Ribs_Hatchet
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_01_L/finger_index_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_02_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_02_L/finger_middle_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/Hold_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_01_R/finger_index_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_02_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_02_R/finger_middle_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/thumb_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: Monitron_rig/hips/thigh_L
+        weight: 1
+      - path: Monitron_rig/hips/thigh_L/shin_L
+        weight: 1
+      - path: Monitron_rig/hips/thigh_R
+        weight: 1
+      - path: Monitron_rig/hips/thigh_R/shin_R
+        weight: 1
+      - path: Monitron_rig/Monitron_hatchet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Carrying
+      takeName: Carrying
+      firstFrame: 136
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monitron_mesh_Lowres
+        weight: 1
+      - path: Monitron_rig
+        weight: 1
+      - path: Monitron_rig/heel_L
+        weight: 1
+      - path: Monitron_rig/heel_L/foot_L
+        weight: 1
+      - path: Monitron_rig/heel_L/foot_L/heel_02_L
+        weight: 1
+      - path: Monitron_rig/heel_L/Kneetarget_L
+        weight: 1
+      - path: Monitron_rig/heel_L/toe_L
+        weight: 1
+      - path: Monitron_rig/heel_R
+        weight: 1
+      - path: Monitron_rig/heel_R/foot_R
+        weight: 1
+      - path: Monitron_rig/heel_R/foot_R/heel_02_R
+        weight: 1
+      - path: Monitron_rig/heel_R/Kneetarget_R
+        weight: 1
+      - path: Monitron_rig/heel_R/toe_R
+        weight: 1
+      - path: Monitron_rig/hips
+        weight: 1
+      - path: Monitron_rig/hips/spine
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck/head
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck/head/Bone
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/Ribs_Hatchet
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_01_L/finger_index_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_02_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_02_L/finger_middle_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/Hold_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_01_R/finger_index_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_02_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_02_R/finger_middle_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/thumb_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: Monitron_rig/hips/thigh_L
+        weight: 1
+      - path: Monitron_rig/hips/thigh_L/shin_L
+        weight: 1
+      - path: Monitron_rig/hips/thigh_R
+        weight: 1
+      - path: Monitron_rig/hips/thigh_R/shin_R
+        weight: 1
+      - path: Monitron_rig/Monitron_hatchet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle1
+      takeName: Idle1
+      firstFrame: 32
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monitron_mesh_Lowres
+        weight: 1
+      - path: Monitron_rig
+        weight: 1
+      - path: Monitron_rig/heel_L
+        weight: 1
+      - path: Monitron_rig/heel_L/foot_L
+        weight: 1
+      - path: Monitron_rig/heel_L/foot_L/heel_02_L
+        weight: 1
+      - path: Monitron_rig/heel_L/Kneetarget_L
+        weight: 1
+      - path: Monitron_rig/heel_L/toe_L
+        weight: 1
+      - path: Monitron_rig/heel_R
+        weight: 1
+      - path: Monitron_rig/heel_R/foot_R
+        weight: 1
+      - path: Monitron_rig/heel_R/foot_R/heel_02_R
+        weight: 1
+      - path: Monitron_rig/heel_R/Kneetarget_R
+        weight: 1
+      - path: Monitron_rig/heel_R/toe_R
+        weight: 1
+      - path: Monitron_rig/hips
+        weight: 1
+      - path: Monitron_rig/hips/spine
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck/head
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck/head/Bone
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/Ribs_Hatchet
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_01_L/finger_index_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_02_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_02_L/finger_middle_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/Hold_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_01_R/finger_index_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_02_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_02_R/finger_middle_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/thumb_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: Monitron_rig/hips/thigh_L
+        weight: 1
+      - path: Monitron_rig/hips/thigh_L/shin_L
+        weight: 1
+      - path: Monitron_rig/hips/thigh_R
+        weight: 1
+      - path: Monitron_rig/hips/thigh_R/shin_R
+        weight: 1
+      - path: Monitron_rig/Monitron_hatchet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle3
+      takeName: Idle3
+      firstFrame: 47
+      lastFrame: 86
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monitron_mesh_Lowres
+        weight: 1
+      - path: Monitron_rig
+        weight: 1
+      - path: Monitron_rig/heel_L
+        weight: 1
+      - path: Monitron_rig/heel_L/foot_L
+        weight: 1
+      - path: Monitron_rig/heel_L/foot_L/heel_02_L
+        weight: 1
+      - path: Monitron_rig/heel_L/Kneetarget_L
+        weight: 1
+      - path: Monitron_rig/heel_L/toe_L
+        weight: 1
+      - path: Monitron_rig/heel_R
+        weight: 1
+      - path: Monitron_rig/heel_R/foot_R
+        weight: 1
+      - path: Monitron_rig/heel_R/foot_R/heel_02_R
+        weight: 1
+      - path: Monitron_rig/heel_R/Kneetarget_R
+        weight: 1
+      - path: Monitron_rig/heel_R/toe_R
+        weight: 1
+      - path: Monitron_rig/hips
+        weight: 1
+      - path: Monitron_rig/hips/spine
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck/head
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck/head/Bone
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/Ribs_Hatchet
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_01_L/finger_index_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_02_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_02_L/finger_middle_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/Hold_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_01_R/finger_index_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_02_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_02_R/finger_middle_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/thumb_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: Monitron_rig/hips/thigh_L
+        weight: 1
+      - path: Monitron_rig/hips/thigh_L/shin_L
+        weight: 1
+      - path: Monitron_rig/hips/thigh_R
+        weight: 1
+      - path: Monitron_rig/hips/thigh_R/shin_R
+        weight: 1
+      - path: Monitron_rig/Monitron_hatchet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PickUp
+      takeName: PickUp
+      firstFrame: 88
+      lastFrame: 129
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monitron_mesh_Lowres
+        weight: 1
+      - path: Monitron_rig
+        weight: 1
+      - path: Monitron_rig/heel_L
+        weight: 1
+      - path: Monitron_rig/heel_L/foot_L
+        weight: 1
+      - path: Monitron_rig/heel_L/foot_L/heel_02_L
+        weight: 1
+      - path: Monitron_rig/heel_L/Kneetarget_L
+        weight: 1
+      - path: Monitron_rig/heel_L/toe_L
+        weight: 1
+      - path: Monitron_rig/heel_R
+        weight: 1
+      - path: Monitron_rig/heel_R/foot_R
+        weight: 1
+      - path: Monitron_rig/heel_R/foot_R/heel_02_R
+        weight: 1
+      - path: Monitron_rig/heel_R/Kneetarget_R
+        weight: 1
+      - path: Monitron_rig/heel_R/toe_R
+        weight: 1
+      - path: Monitron_rig/hips
+        weight: 1
+      - path: Monitron_rig/hips/spine
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck/head
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck/head/Bone
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/Ribs_Hatchet
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_01_L/finger_index_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_02_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_02_L/finger_middle_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/Hold_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_01_R/finger_index_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_02_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_02_R/finger_middle_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/thumb_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: Monitron_rig/hips/thigh_L
+        weight: 1
+      - path: Monitron_rig/hips/thigh_L/shin_L
+        weight: 1
+      - path: Monitron_rig/hips/thigh_R
+        weight: 1
+      - path: Monitron_rig/hips/thigh_R/shin_R
+        weight: 1
+      - path: Monitron_rig/Monitron_hatchet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Unsheath
+      takeName: Carrying
+      firstFrame: 167
+      lastFrame: 187
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monitron_mesh_Lowres
+        weight: 1
+      - path: Monitron_rig
+        weight: 1
+      - path: Monitron_rig/heel_L
+        weight: 1
+      - path: Monitron_rig/heel_L/foot_L
+        weight: 1
+      - path: Monitron_rig/heel_L/foot_L/heel_02_L
+        weight: 1
+      - path: Monitron_rig/heel_L/Kneetarget_L
+        weight: 1
+      - path: Monitron_rig/heel_L/toe_L
+        weight: 1
+      - path: Monitron_rig/heel_R
+        weight: 1
+      - path: Monitron_rig/heel_R/foot_R
+        weight: 1
+      - path: Monitron_rig/heel_R/foot_R/heel_02_R
+        weight: 1
+      - path: Monitron_rig/heel_R/Kneetarget_R
+        weight: 1
+      - path: Monitron_rig/heel_R/toe_R
+        weight: 1
+      - path: Monitron_rig/hips
+        weight: 1
+      - path: Monitron_rig/hips/spine
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck/head
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck/head/Bone
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/Ribs_Hatchet
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_01_L/finger_index_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_02_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_02_L/finger_middle_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/Hold_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_01_R/finger_index_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_02_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_02_R/finger_middle_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/thumb_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: Monitron_rig/hips/thigh_L
+        weight: 1
+      - path: Monitron_rig/hips/thigh_L/shin_L
+        weight: 1
+      - path: Monitron_rig/hips/thigh_R
+        weight: 1
+      - path: Monitron_rig/hips/thigh_R/shin_R
+        weight: 1
+      - path: Monitron_rig/Monitron_hatchet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monitron_mesh_Lowres
+        weight: 1
+      - path: Monitron_rig
+        weight: 1
+      - path: Monitron_rig/heel_L
+        weight: 1
+      - path: Monitron_rig/heel_L/foot_L
+        weight: 1
+      - path: Monitron_rig/heel_L/foot_L/heel_02_L
+        weight: 1
+      - path: Monitron_rig/heel_L/Kneetarget_L
+        weight: 1
+      - path: Monitron_rig/heel_L/toe_L
+        weight: 1
+      - path: Monitron_rig/heel_R
+        weight: 1
+      - path: Monitron_rig/heel_R/foot_R
+        weight: 1
+      - path: Monitron_rig/heel_R/foot_R/heel_02_R
+        weight: 1
+      - path: Monitron_rig/heel_R/Kneetarget_R
+        weight: 1
+      - path: Monitron_rig/heel_R/toe_R
+        weight: 1
+      - path: Monitron_rig/hips
+        weight: 1
+      - path: Monitron_rig/hips/spine
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck/head
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck/head/Bone
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/Ribs_Hatchet
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_01_L/finger_index_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_02_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_02_L/finger_middle_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/Hold_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_01_R/finger_index_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_02_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_02_R/finger_middle_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/thumb_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: Monitron_rig/hips/thigh_L
+        weight: 1
+      - path: Monitron_rig/hips/thigh_L/shin_L
+        weight: 1
+      - path: Monitron_rig/hips/thigh_R
+        weight: 1
+      - path: Monitron_rig/hips/thigh_R/shin_R
+        weight: 1
+      - path: Monitron_rig/Monitron_hatchet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: HoldingObject
+      takeName: Attack
+      firstFrame: 129
+      lastFrame: 129.100006
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monitron_mesh_Lowres
+        weight: 1
+      - path: Monitron_rig
+        weight: 1
+      - path: Monitron_rig/heel_L
+        weight: 1
+      - path: Monitron_rig/heel_L/foot_L
+        weight: 1
+      - path: Monitron_rig/heel_L/foot_L/heel_02_L
+        weight: 1
+      - path: Monitron_rig/heel_L/Kneetarget_L
+        weight: 1
+      - path: Monitron_rig/heel_L/toe_L
+        weight: 1
+      - path: Monitron_rig/heel_R
+        weight: 1
+      - path: Monitron_rig/heel_R/foot_R
+        weight: 1
+      - path: Monitron_rig/heel_R/foot_R/heel_02_R
+        weight: 1
+      - path: Monitron_rig/heel_R/Kneetarget_R
+        weight: 1
+      - path: Monitron_rig/heel_R/toe_R
+        weight: 1
+      - path: Monitron_rig/hips
+        weight: 1
+      - path: Monitron_rig/hips/spine
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck/head
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/neck/head/Bone
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/Ribs_Hatchet
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_01_L/finger_index_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_02_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/palm_02_L/finger_middle_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/Hold_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_01_R/finger_index_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_02_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/palm_02_R/finger_middle_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/thumb_01_R
+        weight: 1
+      - path: Monitron_rig/hips/spine/ribs/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: Monitron_rig/hips/thigh_L
+        weight: 1
+      - path: Monitron_rig/hips/thigh_L/shin_L
+        weight: 1
+      - path: Monitron_rig/hips/thigh_R
+        weight: 1
+      - path: Monitron_rig/hips/thigh_R/shin_R
+        weight: 1
+      - path: Monitron_rig/Monitron_hatchet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: Monitron_rig
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
