@@ -63,7 +63,8 @@ public class MainBase : MonoBehaviour, ITarget
 				Cannon.transform.rotation = newRotation;
 
 				var cannonBall = Instantiate(Ammunition, cbTrajectoryTarget.WPos(), Quaternion.identity);
-				cannonBall.GetComponent<Rigidbody> ().AddForce((cbTrajectoryTarget.WPos() - cbTrajectoryBase.WPos()) * CannonBallForce);
+				var forceModifier = Vector3.Distance(transform.position, hit.point) * 0.12f;
+				cannonBall.GetComponent<Rigidbody> ().AddForce((cbTrajectoryTarget.WPos() - cbTrajectoryBase.WPos()) * CannonBallForce * forceModifier);
 				cannonBall.GetComponent<Cannonball>().SetOwner(this.gameObject.GetComponent<MainBaseActor>());
 			}
 		}
